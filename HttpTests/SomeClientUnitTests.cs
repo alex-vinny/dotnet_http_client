@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using Xunit.Abstractions;
 using SomeHttpCli;
 using System.Collections.Generic;
 
@@ -7,8 +8,13 @@ namespace HttpTests
 {
     public class SomeClientUnitTests
     {
+        readonly ITestOutputHelper output;
         const string urlBase = @"http://api.zippopotam.us/";
-        
+        public SomeClientUnitTests(ITestOutputHelper output)
+        {
+            this.output = output;
+        }
+
         [Fact]
         public void ExecuteGetOnZippopotam()
         {
@@ -18,7 +24,10 @@ namespace HttpTests
 
             var response = client.Execute<Address>(request);
 
+            output.WriteLine(ObjectDumper.Dump(response.Response));
+            
             Assert.True(response.Success);
+            Assert.NotNull(response.Response);
         }
     }
 

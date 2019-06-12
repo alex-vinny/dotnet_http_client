@@ -75,10 +75,12 @@ namespace SomeHttpCli
         {
             if(restResponse.IsSuccessful)
             {
-                return new SimpleResponse<T>(restResponse.Data);
+                return new SimpleResponse<T>(restResponse.Data);                
             }
             else
             {
+                throw restResponse.ErrorException;
+
                 return 
                     new ErrorResponse<T>(restResponse.ErrorException)
                     {
