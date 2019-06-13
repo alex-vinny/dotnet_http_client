@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpTests", "HttpTests\Http
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeHttpCli", "SomeHttpCli\SomeHttpCli.csproj", "{5B87FB7D-8C64-4246-B45F-81C54F4C60FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleValidation", "SimpleValidation\SimpleValidation.csproj", "{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{5B87FB7D-8C64-4246-B45F-81C54F4C60FF}.Release|x64.Build.0 = Release|Any CPU
 		{5B87FB7D-8C64-4246-B45F-81C54F4C60FF}.Release|x86.ActiveCfg = Release|Any CPU
 		{5B87FB7D-8C64-4246-B45F-81C54F4C60FF}.Release|x86.Build.0 = Release|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Debug|x64.Build.0 = Debug|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Debug|x86.Build.0 = Debug|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Release|x64.ActiveCfg = Release|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Release|x64.Build.0 = Release|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Release|x86.ActiveCfg = Release|Any CPU
+		{9720FC6C-5C41-44C0-93E0-B8C3C04AE2B9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SomeHttpCli\SomeHttpCli.csproj" />
+    <ProjectReference Include="..\SimpleValidation\SimpleValidation.csproj" />
   </ItemGroup>
 
 </Project>
